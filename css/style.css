@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+head.logo-gral{
+    border-radius: 100%;
+}
+body{
+    background-color: rgb(241, 194, 250);
+}
+h1{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(248, 5, 236);
+    background-image: url('../images/fondo\ de\ banner\ betania.jpg');
+    background-attachment: fixed;
+    padding: 2%;
+}
+nav.nav{
+    padding: 1%;
+}
+ul.menu-ul{
+    list-style: none;
+    padding: -3%;
+    background: #ef7cf3;
+    width: 202%;
+    /*max-width: 1000px;*/
+    margin-left: -20px;
+}
+a.boton-nav{
+    text-decoration:none;
+    color: white;
+    padding: 19px;
+    display: block;
+}
+li.menu-li{
+    display: inline-block;
+    text-align: center;
+    margin-left: 12%;
+}
+a.boton-nav:hover{
+    background: hsl(315, 83%, 63%);
+}
+a.boton-f-i{
+    font-size: 20px;
+    margin-left: 94%;
+    overflow: hidden;
+}
+p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 2%;
+}
+article.articulo{
+    text-align: center;
+
+}
+img.estructuras{
+    margin-left: 30%;
+    width: 800px;
+    height: 1000px;
+}
+img.foto_index{
+    display: flex;
+display: inline-flex;
+justify-content: center;
+padding: 2.5%;
+height: 1000px;
+width: 800px;
+margin-left: 2%;
+}
+img.foto_index2{
+    margin-left: 28%;
+    height: 650px;
+    width: 1000px;
+}
+img.stick-img{
+    text-align: center;
+    background-color: blue;
+    margin-left: 90px;
+    width: 500px;
+    margin-bottom: 1%;
+    border: 3px solid red;
+}
+img.stick-img2{
+    text-align: center;
+    background-color: blue;
+    margin-left: 90px;
+    width: 500px;
+    margin-bottom: 1%;
+    border: 3px solid red;
+}
+img.souvenirs{
+    margin-left: 29%;
+    width: 800px;
+    height: 1000px;
+}
+footer{
+    background-color:#d97aec;
+}
+img.logo{
+    margin-inline: 46%;
+    width: 10%;
+    height: 10%;
+    border-radius: 100%;
+    padding: 10px;
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5%;
+}
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+h6{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+a.footer{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color:  #d97aec;
+    color: rgb(241, 240, 241);
+    cursor: pointer;
+}
+div.input{
+margin-left: 43%;
+padding: 1%;
+}
+button.input{
+margin-left: 49%;
+}
+button.input-reset{
+    margin-right: 45%;
+}
+p.contacto{
+    margin-right: 0;
+}
+div.contenedor-index{
+    display:flex;
+    background: rgb(248, 148, 215);
+    text-align:center;
+    /*margin-right: 200px;*/
+    padding: 3%;
+    gap: 20px;
+    justify-content: space-between;
+    transition: 0.7s;
+    }
+    div.foto_index2{
+        width: 30%;
+        transition: 0.7s;
+    }
+    div.contenedor-index:hover{
+        background-color:hsl(315, 83%, 63%);
+    }
+    div.foto_index2:hover{
+        width: 40%;
+    }
+    div.texto-contenedor{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 30px;
+        margin-top: 0%;
+        margin-left: 17%;
+        margin-right: -10%;
+    }
+p.titulo-de-texto{
+    padding-top: 2px ;
+}
+nav.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(196, 114, 221);
+    color: rgb(222, 147, 245);
+    padding: 20px;
+}
+main.contacto-gral{
+    margin: 0%;
+    padding: 0%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+    "formulario contacto"
+    "mapa mapa";
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.formulario{
+    grid-area: formulario;
+    padding: 20px;
+    background-color: #7b308a;
+}
+div.contacto{
+    grid-area: contacto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(200, 19, 255);
+    color:rgb(206, 117, 233);
+}
+iframe.mapa{
+    grid-area: mapa;
+    padding: 20px;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form.input{
+    margin-bottom: 10px;
+    padding: 10px
+    border 1px solid #ed62ff
+    border-radius 4px
+}
+footer{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
