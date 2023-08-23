@@ -1,0 +1,16 @@
+img.estructuras{
+    margin-left: 30%;
+    width: 800px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width: 750px){
+    img.estructuras {
+        margin: auto;
+        width: 100%;
+        max-width: 350px;
+        max-height: 400px;
+        text-align: justify;
+    }
+}
