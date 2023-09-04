@@ -4,7 +4,7 @@ img.stick-img{
     margin-left: 90px;
     width: 500px;
     margin-bottom: 1%;
-    border: 3px solid red;
+    border: 3px solid #d5848d;
 }
 img.stick-img2{
     text-align: center;
@@ -12,8 +12,9 @@ img.stick-img2{
     margin-left: 90px;
     width: 500px;
     margin-bottom: 1%;
-    border: 3px solid red;
+    border: 3px solid #d5848d;
 }
+/* configuracion para pantallas mas chicas*/
 @media (max-width: 750px){
     img.stick-img,
     img.stick-img2 {

@@ -1,3 +1,4 @@
+/*configuracion de  botonoes en contacto posicion y colores*/
 div.input-reset-buttons{
     margin-left: 43%;
     padding: 1%;
@@ -5,14 +6,19 @@ div.input-reset-buttons{
     button.input{
         margin-left: 0%;
         margin-top: 40px;
+        color: black;
+        background-color: #d5848d;
         }
         button.input-reset{
             margin-bottom: 40px;
             margin-right: 0%;
+            color: black;
+            background-color: #d5848d;
         }
         p.contacto{
             margin-right: 0;
         }
+        /* distribucion de grid en contacto*/
         main.contacto-gral{
             margin: 0%;
             padding: 0%;
@@ -29,6 +35,8 @@ div.input-reset-buttons{
             grid-area: formulario;
             padding: 20px;
             background-color: #d5848d;
+            color: black;
+            border: 2px solid #ecc1c0;
         }
         div.contacto{
             grid-area: contacto;
@@ -39,7 +47,9 @@ div.input-reset-buttons{
             padding: 20px;
             background-color: #d5848d;
             color:black;
+            border: 2px solid #ecc1c0;
         }
+        /*mapa de contacto*/
         iframe.mapa{
             grid-area: mapa;
             padding: 20px;
@@ -55,6 +65,7 @@ div.input-reset-buttons{
             border 1px solid #ed62ff
             border-radius 4px
         }*/
+        /* configuracion para pantallas mas chicas*/
         @media (max-width: 750px){
             iframe.mapa {
                 height: 200px;

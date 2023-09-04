@@ -1,3 +1,4 @@
+/* configuracion de toda la pagina como fondo y margenes*/
 *{
     padding: 0;
     margin: 0;
@@ -6,19 +7,22 @@
 head.logo-gral{
     border-radius: 100%;
 }
+/* configuracion del body*/
 body{
     background-color: #ecc1c0;
 }
+/*configuracion de todos los textos h1*/
 h1{
     text-align: center;
     font-family:'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: $p-5;
-    color: rgb(248, 5, 236);
+    color: #d5848d;
     background-image: url('../images/fondo\ de\ banner\ betania.jpg');
     background-attachment: fixed;
     padding: 2%;
 }
+/*confiuracion de todos los parrafos*/
 p{
     font-size: $p-2;
     font-family: 'Times New Roman', Times, serif;
@@ -29,6 +33,7 @@ article.articulo{
     text-align: center;
 
 }
+/* configuracion del logo*/
 img.logo{
     margin-inline: 46%;
     display: flex;
@@ -61,6 +66,11 @@ h6{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
+a.links-index-pag{
+    text-decoration: none;
+    color: black;
+}
+/* configuracion para pantallas mas chicas*/
 @media (max-width: 750px){
     h1 {
         font-size: 24px;

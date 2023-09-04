@@ -1,3 +1,4 @@
+/* configuracion del footer general*/
 footer{
     background-color:#f7e5e3;
 }
@@ -10,6 +11,7 @@ a.footer{
     text-decoration: solid;
     transition: 0.7s;
 }
+/*animacion de los botones del footer*/
 a.footer:hover{
     background-color: #d5848d;
 }
@@ -26,6 +28,7 @@ footer{
     padding: 0;
     font-family: Arial, sans-serif;
 }
+/* configuracion para pantallas mas chicas*/
 @media (max-width: 750px){
     nav.footer {
         padding: 5px;

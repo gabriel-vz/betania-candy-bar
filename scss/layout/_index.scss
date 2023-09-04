@@ -1,13 +1,13 @@
+/*configuracion del index*/
 img.foto_index{
     display: flex;
 display: inline-flex;
 justify-content: center;
-align-items: center;
-align-content: center;
-padding: 2.5%;
+/*align-content: center;*/
+padding: 2%;
 height: 1000px;
 width: 800px;
-margin-left: 6%;
+margin-left: 10%;
 }
 img.foto_index2{
     /*le puse flex 20/08/2023*/
@@ -21,9 +21,10 @@ img.foto_index2:hover{
     width: 1200px;
     height: 900px;
 }
+/*configuracion de div con hover*/
 div.contenedor-index{
     display:flex;
-    background: rgb(250, 190, 230);
+    background: #ecc1c0;
     text-align:center;
     /*margin-right: 200px;*/
     padding: 3%;
@@ -54,6 +55,7 @@ div.contenedor-index{
     h4.titulo-de-texto{
         padding-top: 2px ;
     }
+    /* configuracion para pantallas mas chicas*/
     @media (max-width: 750px){
         section.foto_index_container {
             align-items: center;

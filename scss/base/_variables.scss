@@ -1,11 +1,11 @@
+/*configuracion corta*/
 $color-primary: pink;
 $p-5:50px;
 $p-4:40px;
 $p-3:30px;
 $p-2:20px;
 $p-1:10px;
-@media (max-width: 750px){}
-
+/* configuracion para pantallas mas chicas*/
 @mixin card ($texto,$bacground,$margin,$width,$margin-bottom,$border){
     text-align: center;
     background-color: blue;
@@ -14,3 +14,5 @@ $p-1:10px;
     margin-bottom: 1%;
     border: 3px solid #d5848d;
 }
+@media (max-width: 750px){}
+

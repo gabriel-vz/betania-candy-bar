@@ -1,14 +1,17 @@
-nav.nav{
+/*configuracion scss del navegador en todos los hatml*/
+/*nav{
     padding: 1%;
     display: flex;
     flex-direction: row;
+}*/
+nav.navbar{
+    background: #f7e5e3;
 }
 ul.menu-ul{
     list-style: none;
     padding: -3%;
     background: #f7e5e3;
     width: 3000px;
-    /*max-width: 1000px;*/
     margin-left: 0;
     margin-right: 0;
 }
@@ -18,12 +21,13 @@ a.boton-nav{
     padding: 19px;
     display: flex;
     flex-direction: row;
-    transition: 0.7s
+    transition: 0.3s
 }
 li.menu-li{
     display: inline-block;
     text-align: center;
     margin-left: 12%;
+    background: #f7e5e3;
 }
 a.boton-nav:hover{
     background: #d5848d;
@@ -38,11 +42,35 @@ a.boton-f-i{
     background-color:#f7e5e3;
     text-decoration-color: rgb(255, 255, 255);
     color: black;
-    transition: 0.7s;
-}
-a.boton-f-i:hover{
-    background-color: #d5848d;
-}
+    transition: 0.3s;
+    }
+    a.boton-f-i:hover{
+        background-color: #d5848d;
+    }
+    ul.navbar-nav{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: $p-2;
+        background-color: #f7e5e3;
+        }
+        .navbar-light{
+            background-color:#f7e5e3 ;
+        }
+        .nav-item a:hover {
+            background-color: #d5848d; 
+            color: #f7e5e3;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        div.navbar-collapse{
+            background-color: #f7e5e3;
+        }
+        div.container{
+            background-color: #f7e5e3;
+        }
+/* configuracion para pantallas mas chicas*/
 @media (max-width: 750px){
     a.boton-nav {
         padding: 7px;
@@ -60,8 +88,9 @@ a.boton-f-i:hover{
         flex-direction: row;
         margin: 0.5%;
         }
-        nav{
-            flex-direction: row;
+        a.boton-nav{
+        margin-right: 0;
+        text-align: right;
         }
         a.boton-f-i{
             margin: 0 auto;
